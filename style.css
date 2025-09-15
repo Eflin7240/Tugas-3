@@ -31,10 +31,17 @@ body {
     background-color: #c4c4c4a6;
     top: 0px;
     left: 0;
-    width: 800ch;
+    width: 1000ch;
     height: 100;
-    padding: 10px;
+    justify-content: center;
 }
+
+@media only screen and (max-width: 500px) {
+    .nav {
+        width: 5000ch;
+    }
+}
+
 ul {
     list-style: none;
 }
