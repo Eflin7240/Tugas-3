@@ -1,0 +1,69 @@
+::-webkit-scrollbar {
+        display: none;
+    }
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    background-color: #868686ff;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    background-image: url('olena-bohovyk-6FdG9OL6JLI-unsplash.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+}
+.Isinya {
+    display: flex;
+    gap: 20px;
+    margin-top: 90px;
+}
+
+.nav {
+    display: flex;
+    background-color: #c4c4c4a6;
+    top: 0px;
+    left: 0;
+    width: 800ch;
+    height: 100;
+    padding: 10px;
+}
+ul {
+    list-style: none;
+}
+
+li {
+    margin-top: 10px;
+    
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    color: #e5e4e4ff;
+    transition: 0.3s;
+}
+
+.isi{
+
+}
+
+.bawahan {
+    width: 100%;
+    height: 50px;
+    background-color: #a7a7a7a6;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+}
